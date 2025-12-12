@@ -1,12 +1,26 @@
+# PyCharm / IDE
 .idea/
+
+# Virtualenvs
+venv/
+.venv/
 .venv/*
+
+# Python cache
+__pycache__/
+*__pycache__*
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# Project-specific (z forku)
 Practicals/Data/*
 !Practicals/Data/placeholder.txt
 !Practicals/Data/data_devsample_columns_description.csv
-*.ipynb_checkpoints*
-*__pycache__*
 Practicals/05_neural_networks/run_with_loss.py
 Practicals/05_neural_networks/logs/
 Practicals/05_neural_networks/czech_pdt.zip
-Practicals/07_additional_materials/face_recognition/facenet_model/
 Practicals/06_hyperparameter_optimization/logs/
+Practicals/07_additional_materials/face_recognition/facenet_model/
